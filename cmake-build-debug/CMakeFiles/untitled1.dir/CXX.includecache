@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Public/WinApi/wrapper-engine/main.cpp
+iostream
+-
+wrapper_engine.h
+C:/Users/Public/WinApi/wrapper-engine/wrapper_engine.h
+test.h
+C:/Users/Public/WinApi/wrapper-engine/test.h
+
+C:/Users/Public/WinApi/wrapper-engine/test.h
+iostream
+-
+
+C:/Users/Public/WinApi/wrapper-engine/wrapper_engine.h
+iostream
+-
+functional
+-
+map
+-
+vector
+-
+
